@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    background-color: #abd1c6;
+    
+}
+.container
+{
+    border: 1px solid white;
+    height: 29rem;
+    width: 25rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+.btn1{
+    background-color: #45A69A;
+    border: none;
+    width:95px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px 5px;
+    color: white;
+}
+.btn2{
+    background-color: #FFFFFF;
+    border:none;
+    width:95px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+.btn3{
+    background-color: #FFFFFF;
+    border: none;
+    width:95px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+.buttons
+{
+    border: 1px solid rgba(143, 142, 142, 0.242);
+    /* margin-bottom: 60px; */
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 40px;
+
+}
+.spx1{
+    color: rgba(128, 128, 128, 0.912);
+    font-weight: 200px;
+    
+}
+.spx{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-right: 9rem;
+}
+.premium
+{
+    text-align: left;
+    width: 100%;
+    padding-left: 50px;
+    /* margin-bottom: 4rem; */
+    padding-top: 1.5rem;
+}
+.point{
+    /* display: flex;
+    justify-content: center;
+    align-items: first baseline; */
+    padding: 20px 15px 0px 50px;
+    flex-direction: column;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500px;
+    display: block;
+    
+}
+.list{
+    padding: 1px 0px 0px 0px;
+}
+li::marker{
+    color: #45A69A;
+    stroke: #45A69A;
+    
+}
+.btn4{
+    width: 14rem;
+    height: 2.5rem;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: 1px solid #45A69A;
+    background-color: #45A69A;
+    font-size: 1em;
+    font-weight:500;
+    color: white;
+    box-shadow: 4px 3px 9px 3px rgba(0, 0, 0, 0.158);
+    margin-bottom: 2rem;
+    margin-top: 1.3rem;
+}
